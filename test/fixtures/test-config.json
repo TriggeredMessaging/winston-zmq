@@ -1,0 +1,26 @@
+{
+    "transports": {
+        "zmq": {
+            "transport": "tcp",
+            "address": "127.0.0.1",
+            "port": 2345
+        },
+         "zmq_test2": {
+            "transport": "tcp",
+            "address": "127.0.0.1",
+            "port": 5678
+        },
+        "zmq_no_port": {
+            "transport": "tcp"
+        },
+        "zmq_bad_transport": {
+            "transport": "BadTransport"
+        },
+         "zmq_bad_address": {
+            "transport": "tcp",
+            "address": 123456,
+            "port": 76567
+        }
+
+    }
+}
