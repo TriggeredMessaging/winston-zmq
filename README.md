@@ -92,6 +92,19 @@ logger.log('silly', 'Some Text', {somekey: 'some data'});
 logger.log('error', 'Some Text', {somekey: 'some data'});
 ```
 
+### Message Format
+
+The above two messages will be transmitted as:
+
+```
+*|*|{"timestamp":"2011-11-16T15:53:55.912Z","level":"silly","message":"Some Text","meta":{"somekey":"some data"}}
+```
+
+```
+******|*|{"timestamp":"2011-11-16T15:53:55.913Z","level":"error","message":"Some Text","meta":{"somekey":"some data"}}
+```
+
+
 
 
 
