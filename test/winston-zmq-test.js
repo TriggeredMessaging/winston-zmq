@@ -185,11 +185,11 @@ vows.describe('winston-zmq').addBatch({
 
             'should generate a prefix correctly': function(err, logger) {
                 var msg = logger.constructMessage('info', 'test message', {metadata:true});
-                msg.should.include.string("vvv|*|");
+                msg.should.include.string("***|*|");
             },
             'should generate a prefix correctly for error': function(err, logger) {
                 var msg = logger.constructMessage('error', 'test message', {metadata:true});
-                msg.should.include.string("v|*|");
+                msg.should.include.string("*|*|");
             },
             'should throw an error on an unknown log level': function(err, logger) {
                 assert.throws(function() {
