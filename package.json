@@ -10,7 +10,7 @@
     },
     "keywords": ["logging", "sysadmin", "tools", "winston", "zmq", "0mq", "zeromq"],
     "dependencies": {
-        "zmq": "1.0.0"
+        "zmq": ">=1.0.3"
     },
     "devDependencies": {
         "winston": "0.4.x",
