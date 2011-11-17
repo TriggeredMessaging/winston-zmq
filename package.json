@@ -1,22 +1,27 @@
 {
-  "name": "winston-zmq",
-  "description": "A 0MQ transport for winston",
-  "version": "0.1.0",
-  "author": "David Henderson <dhendo@gmail.com>",
-  "contributors": [],
-  "repository": {
-    "type": "git",
-    "url": "http://github.com/TriggeredMessaging/winston-zmq.git" 
-  },
-  "keywords": ["logging", "sysadmin", "tools", "winston", "zmq", "0mq", "zeromq"],
-  "dependencies": {
-    "zmq": "1.0.0"
-  },
-  "devDependencies": {
-    "winston": "0.4.x",
-    "vows": "0.5.x"
-  },
-  "main": "./lib/winston-zmq",
-  "scripts": { "test": "vows test/*-test.js" },
-  "engines": { "node": ">= 0.4.0" }
+    "name": "winston-zmq",
+    "description": "A 0MQ transport for winston",
+    "version": "0.1.0",
+    "author": "David Henderson <dhendo@gmail.com>",
+    "contributors": [],
+    "repository": {
+        "type": "git",
+        "url": "http://github.com/TriggeredMessaging/winston-zmq.git"
+    },
+    "keywords": ["logging", "sysadmin", "tools", "winston", "zmq", "0mq", "zeromq"],
+    "dependencies": {
+        "zmq": "1.0.0"
+    },
+    "devDependencies": {
+        "winston": "0.4.x",
+        "vows": "0.5.x",
+        "should": "0.3.x"
+    },
+    "main": "./lib/winston-zmq",
+    "scripts": {
+        "test": "vows test/*-test.js"
+    },
+    "engines": {
+        "node": ">= 0.4.0"
+    }
 }
