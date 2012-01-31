@@ -2,7 +2,7 @@ var util = require('util'),
     zmq = require('zmq');
 
 
-var socket = zmq.createSocket('sub');
+var socket = zmq.socket('sub');
 socket.subscribe('');
 
 socket.on('message', function(bufMsg) {
