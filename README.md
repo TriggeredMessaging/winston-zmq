@@ -57,7 +57,7 @@ The Zmq transport takes the following options. 'db' is required:
 ```
 var util = require('util'), zmq = require('zmq');
 
-var socket = zmq.createSocket('sub');
+var socket = zmq.socket('sub');
 socket.subscribe(''); // subscribe to all
 // socket.subscribe('***'); // subscribe to info and above
 

@@ -1,7 +1,7 @@
 {
     "name": "winston-zmq",
     "description": "A 0MQ transport for winston",
-    "version": "0.1.0",
+    "version": "0.2.0",
     "author": "David Henderson <dhendo@gmail.com>",
     "contributors": [],
     "repository": {
